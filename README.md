@@ -60,7 +60,7 @@ where:
 
 ### Optimal Control Law
 
-The optimal control input$$u_t$$in the Koopman space is given by the feedback law:
+The optimal control input $$u_t$$ in the Koopman space is given by the feedback law:
 
 $$
 u_t = -K_{\text{LQR}} G(x_t, u_t)
