@@ -37,14 +37,14 @@ $$
 we transform it into Koopman space using a lifting function $$G(x_t, u_t)$$ for the state and control inputs, such that the dynamics can be approximated linearly:
 
 $$
-G(x_{t+1}, u_{t+1}) = K G(x_t, u_t) + B_K c(u_t)
+G(x_{t+1}, u_{t+1}) = K G(x_t, u_t) + B_K C(u_t)
 $$
 
 where:
 - $$G(x_t, u_t)$$ is the lifting function that maps the state$$x_t$$and control $$u_t$$ into the Koopman space,
 - $$K$$ is the **Koopman operator** (the linear transition matrix in the Koopman space),
 - $$B_K$$ is the control input matrix in the Koopman space,
-- $$c(u_t)$$ is the lifting function for the control inputs.
+- $$C(u_t)$$ is the lifting function for the control inputs.
 
 ### LQR Cost Function
 
