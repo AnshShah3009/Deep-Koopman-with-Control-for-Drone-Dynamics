@@ -41,7 +41,7 @@ G(x_{t+1}, u_{t+1}) = K G(x_t, u_t) + B_K C(u_t)
 $$
 
 where:
-- $$G(x_t, u_t)$$ is the lifting function that maps the state$$x_t$$and control $$u_t$$ into the Koopman space,
+- $$G(x_t, u_t)$$ is the lifting function that maps the state $$x_t$$ and control $$u_t$$ into the Koopman space,
 - $$K$$ is the **Koopman operator** (the linear transition matrix in the Koopman space),
 - $$B_K$$ is the control input matrix in the Koopman space,
 - $$C(u_t)$$ is the lifting function for the control inputs.
