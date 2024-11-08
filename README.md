@@ -1,5 +1,5 @@
 # Deep Koopman with Control for Drone Dynamics
-
+![Drone Control Diagram](assets/arch.png)
 ## Overview
 This project investigates the application of Koopman Theory to improve control performance in drone dynamics by reducing computational load and simplifying optimization compared to traditional methods.
 
